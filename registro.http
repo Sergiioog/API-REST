@@ -1,3 +1,13 @@
 ###
 GET http://localhost:3000/api/v1/datos
 ###
+
+###
+POST http://localhost:3000/api/v1/datos
+
+Content-Type: application/json
+{
+  "title": "true",
+  "description": "Hola caracola"
+}
+###

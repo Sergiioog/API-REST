@@ -13,6 +13,11 @@ app.get('/api/v1/datos', (req, res) => { //Hacemos nuestro primer ENDPOINT (ejem
     });
 });
 
+//--------------------------------------------
+
+app.post( , (req,res) = {
+
+});
 const PORT = 3000; //Definimos el puerto 3000
 app.listen(PORT, () => {//Le decimos que escuche el puerto 3000
     console.log(`Servidor alojado en el puerto http://localhost:${PORT}`)
